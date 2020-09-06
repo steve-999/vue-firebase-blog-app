@@ -71,7 +71,6 @@ export default {
   min-height: 400px;
   padding: 20px;
   margin: 0 auto;
-  border: 2px solid darkorange;
 }
 
 #welcome-message-container {
@@ -129,13 +128,13 @@ p {
 }
 
 .blog-title {
-  margin: 0px 0 30px 0;
+  margin: 10px 0 20px 0;
 }
 
 .blog-title > a {
   color: darkblue;
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -156,15 +155,39 @@ p {
 
 @media screen and (max-width: 750px) {
   #show-blogs-list {
-    padding: 0;
+    padding: 20px 0;
+  }
+
+  #welcome-message-container > h1 {
+    font-size: 22px;
+  }
+
+  #welcome-message-container > p {
+    font-size: 18px;
+  }
+
+  #welcome-message-container a {
+    font-size: 17px;
+  }
+
+  .blog-title > a { 
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 550px) {
 
+  #welcome-message-container > h1 {
+    font-size: 20px;
+  }
+
   .blog-item {
     margin: 15px;
     padding: 0 12px;
+  }
+
+  .blog-title > a { 
+    font-size: 18px;
   }
 }
 

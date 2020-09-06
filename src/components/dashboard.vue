@@ -197,7 +197,7 @@ a:hover {
 .blog-title > a {
   color: darkblue;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
