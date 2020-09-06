@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vue & Firebase Blog App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBYE53WkSXRbBjm5a6yipUSCaSTF6qG5Gg",
+        authDomain: "vue-blog-app-3e261.firebaseapp.com",
+        databaseURL: "https://vue-blog-app-3e261.firebaseio.com",
+        projectId: "vue-blog-app-3e261",
+        storageBucket: "vue-blog-app-3e261.appspot.com",
+        messagingSenderId: "72696148442",
+        appId: "1:72696148442:web:37575f44d0ef7fbb42d0e3"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+    </script>
+
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
